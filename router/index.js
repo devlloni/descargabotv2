@@ -10,10 +10,10 @@ var ObjectId = require('mongoose').Types.ObjectId;
 require('dotenv').config();
 
 const twitterClient = new twitter({
-  consumer_key: process.env.consumer_key,
-  consumer_secret: process.env.consumer_secret,
-  access_token: process.env.access_token_key,
-  access_token_secret: process.env.access_token_secret,
+  consumer_key: 'GFH7dR1drwVETJyTYPtnjQoh6',
+  consumer_secret: 'M7Z8evCjAe1wThLXZpMlXutsWp4rDYy26HFw88TV54DQK1oYxk',
+  access_token: '1236724403792199681-M50lFgAMSSIiTneD4T82sThIYCqpEz',
+  access_token_secret: 'f1WCjMM4XpEhhfzZTnkGdg2784sUf7ZyKJvIpOLhkyltZ',
 });
 
 router.get('/', function (req, res) {
