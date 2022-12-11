@@ -78,7 +78,7 @@ function handleStream(event) {
                   user_id: user._id,
                 },
                 function (err) {
-                  // replyTweet(tweetOwner, tweetID);
+                  replyTweet(tweetOwner, tweetID);
                 }
               );
             });
@@ -135,4 +135,4 @@ app.use(function (err, req, res, next) {
   res.render('error', { message: err.message });
 });
 
-app.listen(3001 || 3001);
+app.listen(8000);
